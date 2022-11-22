@@ -1,0 +1,66 @@
+
+#container {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 80vw;
+}
+
+#posts {
+    max-width: 300px;
+    min-height: 50px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    height: 200px;
+    width: 210px;
+    margin: 10px;
+}
+
+.sliderContainer
+{
+ position: relative;
+}
+.sliderContainer >  button {
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .next{
+    position: absolute;
+    bottom: 80px;
+    right: 30px;
+  }
+  .prev{
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
+    
+  }
+
+  .prev , .next {
+    text-align: center;
+    background-color: transparent;
+    border-width: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .prev, .next > span {
+    vertical-align: middle;
+  }
+  
+  

@@ -1,0 +1,226 @@
+.card {
+  display: inline-block;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  padding: 20px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0;
+  margin: auto;
+
+  width: 75vw;
+}
+
+.MainImage {
+  margin-right: 55px;
+}
+
+.artAction {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: center;
+    color:black;
+  }
+  
+  .artAction > button {
+    text-align: center;
+    margin: 5px 20px;
+    background-color: transparent;
+    border-width: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .artAction > button > img, span {
+    vertical-align: middle;
+    color: #333;
+  }
+
+.MainInformation {
+  margin-left: 10px;
+  padding: 10px;
+  position: relative;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.globalInformation {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.globalInformation > h3,
+h4 {
+  display: inline;
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+.globalInformation > h3 {
+  color: rgb(231, 161, 9);
+  margin-right: 100px;
+}
+
+.globalInformation > h5 {
+  margin: 10px 0 0 0;
+}
+
+.actions {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid grey;
+}
+.group {
+  width: 340px;
+  height: 40px;
+  padding: 15px 15px;
+  line-height: 40px;
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.acquire {
+  float: left;
+  line-height: 40px;
+  color: Black;
+  text-decoration: none;
+  transition: 1s;
+}
+.offer {
+  float: right;
+  text-decoration: none;
+  line-height: 40px;
+  color: #a6afbf;
+}
+.bg {
+  background-color: #e67e22;
+  height: 60px;
+  width: 190px;
+  position: absolute;
+  top: 0;
+  margin-left: -260px;
+  z-index: -1;
+  transition: 1s;
+  border-radius: 5px;
+}
+
+span:hover + .bg {
+  width: 200px;
+  margin-left: -40px;
+  background: #d6b703;
+}
+
+.two > span:hover {
+  color: white;
+}
+
+.two:hover ~ .one {
+  color: #fff;
+}
+span {
+  padding: 10px 0;
+  transition: 1s;
+}
+
+.actions > .group > button {
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+.delivry {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.delivry > span {
+  text-align: center;
+  margin: 10 0;
+}
+
+.delivry > span > img {
+  vertical-align: middle;
+}
+
+.delivryFinalisation {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .delivryFinalisation > span {
+    text-align: center;
+    margin: 10 10;
+  }
+  
+  .delivryFinalisation > span > img {
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+
+
+
+.delivryInformation {
+  font-size: 1.4rem;
+}
+
+.delivryInput{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+
+input[type="text"] {
+  font: 15px/24px sans-serif;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+
+input[type="text"] {
+  font: 15px/24px "Lato", Arial, sans-serif;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.effect{border: 0; padding: 7px 0; border-bottom: 1px solid #ccc;}
+
+
